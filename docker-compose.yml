@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  lighttpd:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./videos:/var/www/html/videos
+    restart: unless-stopped
