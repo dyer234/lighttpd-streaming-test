@@ -18,5 +18,3 @@ EXPOSE 80
 
 # Start Lighttpd
 CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
-
-#CMD ["tail", "-f", "/dev/null"]
