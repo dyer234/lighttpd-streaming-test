@@ -21,7 +21,10 @@ Note: BYOV - Bring Your Own Video Files
    ```bash
    mkdir videos
    ```
-2. **Start the Lighttpd server**
+
+2. Add a video called test.mp4 to the videos folder
+
+3. **Start the Lighttpd server**
    ```bash
    docker compose up
    ```  
